@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Marco/Desktop/GitHub/Architettura/Esercizio1-Multiplexer/Esercizio/MUX16-1.sim/sim_1/synth/func/xsim/mux16_1_tb_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux16_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Marco/Desktop/GitHub/Architettura/Esercizio1-Multiplexer/Esercizio/MUX16-1.srcs/sim_1/new/mux16_1_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux16_1_tb'

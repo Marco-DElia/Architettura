@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Jan 11 12:28:23 2023
+# Process ID: 22092
+# Current directory: C:/Users/Marco/Desktop/GitHub/Architettura/Esercizio3/on_board/on_board.runs/synth_1
+# Command line: vivado.exe -log led_button_prova.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source led_button_prova.tcl
+# Log file: C:/Users/Marco/Desktop/GitHub/Architettura/Esercizio3/on_board/on_board.runs/synth_1/led_button_prova.vds
+# Journal file: C:/Users/Marco/Desktop/GitHub/Architettura/Esercizio3/on_board/on_board.runs/synth_1\vivado.jou
+# Running On: LAPTOP-RRM7JM00, OS: Windows, CPU Frequency: 1800 MHz, CPU Physical cores: 4, Host memory: 8461 MB
+#-----------------------------------------------------------
+source led_button_prova.tcl -notrace

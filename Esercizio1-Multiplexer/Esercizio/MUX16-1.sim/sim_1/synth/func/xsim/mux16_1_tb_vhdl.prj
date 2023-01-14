@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"mux16_1_tb_func_synth.vhd" \
+"../../../../../MUX16-1.srcs/sim_1/new/mux16_1_tb.vhd" \
+
+# Do not sort compile order
+nosort

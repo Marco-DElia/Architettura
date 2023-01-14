@@ -31,17 +31,25 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity MUX4_1 is
+entity mux4_1 is
      Port (
-            a: in std_logic_vector (0 to 3);
-            b: in std_logic_vector (1 downto 0);
+            in_vec: in std_logic_vector (0 to 3);
+            s: in std_logic_vector (1 downto 0);
             y: out std_logic
             );
-end MUX4_1;
+end mux4_1;
 
-architecture MUX4_1 of MUX4_1 is
+architecture rtl of mux4_1 is
 
 begin
+        with s select
+            y <= in_vec(0) when "00",
+                 in_vec(1) when "01",
+                 in_vec(2) when "10",
+                 in_vec(3) when "11",
+                 '-'  when others;
 
+-- si è scelto il costrutto with perchè senza, nell'RTL Analysis
+-- viene inferita un'architettura con dei multiplexer 2 a 1 connessi.
 
-end MUX4_1;
+end rtl;

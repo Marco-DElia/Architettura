@@ -1,0 +1,6 @@
+Time resolution is 1 ps
+Error: Test case 3 failed
+Time: 130 ns  Iteration: 0  Process: /mux4_1_tb/test_process  File: C:/Users/Marco/Desktop/GitHub/Architettura/Esercizio1-Multiplexer/Esercizio/MUX16-1.srcs/sim_1/new/test_mux4_1.vhd
+Failure: Test case 4 failed
+Time: 140 ns  Iteration: 0  Process: /mux4_1_tb/test_process  File: C:/Users/Marco/Desktop/GitHub/Architettura/Esercizio1-Multiplexer/Esercizio/MUX16-1.srcs/sim_1/new/test_mux4_1.vhd
+$finish called at time : 140 ns : File "C:/Users/Marco/Desktop/GitHub/Architettura/Esercizio1-Multiplexer/Esercizio/MUX16-1.srcs/sim_1/new/test_mux4_1.vhd" Line 59

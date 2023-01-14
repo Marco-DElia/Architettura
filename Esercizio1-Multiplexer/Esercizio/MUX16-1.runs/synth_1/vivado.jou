@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Jan  4 12:48:31 2023
+# Process ID: 17104
+# Current directory: C:/Users/Marco/Desktop/GitHub/Architettura/Esercizio1-Multiplexer/Esercizio/MUX16-1.runs/synth_1
+# Command line: vivado.exe -log mux16_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mux16_1.tcl
+# Log file: C:/Users/Marco/Desktop/GitHub/Architettura/Esercizio1-Multiplexer/Esercizio/MUX16-1.runs/synth_1/mux16_1.vds
+# Journal file: C:/Users/Marco/Desktop/GitHub/Architettura/Esercizio1-Multiplexer/Esercizio/MUX16-1.runs/synth_1\vivado.jou
+# Running On: LAPTOP-RRM7JM00, OS: Windows, CPU Frequency: 1800 MHz, CPU Physical cores: 4, Host memory: 8461 MB
+#-----------------------------------------------------------
+source mux16_1.tcl -notrace
