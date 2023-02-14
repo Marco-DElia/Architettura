@@ -1,0 +1,25 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot A_B_tb_behav xil_defaultlib.A_B_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.math_real
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.sh_reg [sh_reg_default]
+Compiling architecture generic_counter_v1 of entity xil_defaultlib.generic_counter [\generic_counter(n=8)\]
+Compiling architecture a_node_v1 of entity xil_defaultlib.A_node [a_node_default]
+Compiling architecture generic_counter_v1 of entity xil_defaultlib.generic_counter [\generic_counter(n=9)\]
+Compiling architecture generic_counter_v1 of entity xil_defaultlib.generic_counter [\generic_counter(n=4)\]
+Compiling architecture full_adder_v1 of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture adder_sub_structural_v1 of entity xil_defaultlib.adder_sub_structural [\adder_sub_structural(size=5)\]
+Compiling architecture async_read_generic_ram_v1 of entity xil_defaultlib.async_read_generic_ram [\async_read_generic_ram(n_regist...]
+Compiling architecture b_node_v1 of entity xil_defaultlib.B_node [b_node_default]
+Compiling architecture a_b_tb_v1 of entity xil_defaultlib.a_b_tb
+Built simulation snapshot A_B_tb_behav

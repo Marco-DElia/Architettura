@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="A_B_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="A_B_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="9,067.797 ns"></ZoomEndTime>
+      <Cursor1Time time="5,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="195"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/A_B_tb/A/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/A_B_tb/A/switch" type="array">
+      <obj_property name="ElementShortName">switch[7:0]</obj_property>
+      <obj_property name="ObjectShortName">switch[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/A_B_tb/A/load" type="logic">
+      <obj_property name="ElementShortName">load</obj_property>
+      <obj_property name="ObjectShortName">load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/A_B_tb/A/ack" type="logic">
+      <obj_property name="ElementShortName">ack</obj_property>
+      <obj_property name="ObjectShortName">ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/A_B_tb/A/req" type="logic">
+      <obj_property name="ElementShortName">req</obj_property>
+      <obj_property name="ObjectShortName">req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/A_B_tb/A/serial_out" type="logic">
+      <obj_property name="ElementShortName">serial_out</obj_property>
+      <obj_property name="ObjectShortName">serial_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/A_B_tb/A/data_regs" type="array">
+      <obj_property name="ElementShortName">data_regs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_regs[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/A_B_tb/A/count_value" type="array">
+      <obj_property name="ElementShortName">count_value[2:0]</obj_property>
+      <obj_property name="ObjectShortName">count_value[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/A_B_tb/B/comp/op1" type="array">
+      <obj_property name="ElementShortName">op1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">op1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/A_B_tb/B/comp/op2" type="array">
+      <obj_property name="ElementShortName">op2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">op2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/A_B_tb/B/comp/mode" type="logic">
+      <obj_property name="ElementShortName">mode</obj_property>
+      <obj_property name="ObjectShortName">mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/A_B_tb/B/comp/result" type="array">
+      <obj_property name="ElementShortName">result[4:0]</obj_property>
+      <obj_property name="ObjectShortName">result[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/A_B_tb/B/comp/negative_flag" type="logic">
+      <obj_property name="ElementShortName">negative_flag</obj_property>
+      <obj_property name="ObjectShortName">negative_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/A_B_tb/B/counter_ones/evnt" type="logic">
+      <obj_property name="ElementShortName">evnt</obj_property>
+      <obj_property name="ObjectShortName">evnt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/A_B_tb/B/counter_ones/count" type="array">
+      <obj_property name="ElementShortName">count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">count[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/A_B_tb/B/ram/RAM" type="array">
+      <obj_property name="ElementShortName">RAM[3:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM[3:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/A_B_tb/B/curr_state" type="other">
+      <obj_property name="ElementShortName">curr_state</obj_property>
+      <obj_property name="ObjectShortName">curr_state</obj_property>
+   </wvobject>
+</wave_config>
